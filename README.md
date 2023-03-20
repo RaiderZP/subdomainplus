@@ -4,7 +4,7 @@
 # 如何使用？
 1.将wx_url、wx_upload_url中的token改为自己的企业微信token。
 
-2.在/root/subdoamin/下创建域名文件夹，如想收集百度的域名，则创建baidu文件夹，并在baidu文件下创建Domain文件，导入baidu的域名资产，如baidu.com,badu.cn等等
+2.在/root/subdoamin/下创建域名文件夹，如想收集百度的域名，则创建baidu文件夹，并在baidu文件夹下创建Domain文件，导入baidu的域名资产，如baidu.com,badu.cn等等
 
 3.将项目文件写入计划任务循环执行即可达成域名监管作用。
 
