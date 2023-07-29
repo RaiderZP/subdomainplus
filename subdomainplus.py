@@ -8,8 +8,8 @@ import pandas as pd
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-wx_url = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=b2ce2259-0178-46c3-be64-7e98fa402b48'
-wx_upload_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/upload_media?key=b2ce2259-0178-46c3-be64-7e98fa402b48&type=file"
+wx_url = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=your_key'
+wx_upload_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/upload_media?key=your_key&type=file"
 start_time = time.strftime('%m-%d %H:%M', time.localtime())
 start_time = start_time.replace(' ', '-').replace(':', '-')
 domain_name = os.path.abspath('.').split('/')[-1]
